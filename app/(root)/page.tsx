@@ -1,9 +1,14 @@
 import { Button } from "@/components/ui/button";
 
+import BookOverview from "@/components/BookOverview";
+import BookList from "@/components/BookList";
+
 const Home = () => {
   return (
     <>
-      <Button>Button</Button>
+      <BookOverview />
+
+      <BookList />
     </>
   );
 };
