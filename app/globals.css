@@ -70,6 +70,7 @@
     --sidebar-ring: oklch(0.704 0.04 256.788);
     --font-ibm-plex-sans: 'IBM Plex-Sans', sans-serif;
     --font-bebas-neue: 'Bebas Neue', cursive;
+    --bg-pattern: url('../public/images/pattern.webp');
 }
 
 .dark {
@@ -138,6 +139,8 @@
     --color-dark-800: var(--dark-800);
     --color-gray-100: var(--gray-100);
     --spacing-xs: var(--breakpoint-xs);
+    --breakpoint-xs: 480px;
+    --bg-pattern: var(--bg-pattern);
 
     --color-background: var(--background);
     --color-foreground: var(--foreground);
@@ -176,6 +179,10 @@
     --radius-xl: calc(var(--radius) + 4px);
     --font-ibm-plex-sans: var(--font-ibm-plex-sans);
     --font-bebas-neue: var(--font-bebas-neue);
+}
+
+@utility bg-pattern {
+    background-image: var(--bg-pattern);
 }
 
 @layer base {
@@ -239,7 +246,7 @@
 
     /* Root */
     .root-container {
-        @apply flex min-h-screen flex-1 flex-col bg-cover bg-top bg-dark-100 px-5 md:px-16;
+        @apply flex min-h-screen flex-1 flex-col bg-pattern bg-cover bg-top bg-dark-100 px-5 xs:px-10 md:px-16;
     }
 
     /* Book Details */
