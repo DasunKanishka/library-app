@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@100..700&display=swap');
 
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -38,7 +38,7 @@
     --light-100: oklch(88.2% 0.109 258.5);
     --light-200: oklch(84.2% 0.098 80.9);
     --light-300: oklch(98.4% 0.003 264.3);
-    --light-400: oklch(95.4% 0.005 180.0);
+    --light-400: oklch(95.4% 0.005 180);
     --light-500: oklch(59.6% 0.014 264.3);
     --light-600: oklch(98.7% 0.002 264.3);
     --light-700: oklch(91.2% 0.015 264.3);
@@ -46,11 +46,11 @@
     --dark-100: oklch(11.2% 0.014 264.3);
     --dark-200: oklch(25.3% 0.045 264.3);
     --dark-300: oklch(16.7% 0.022 264.3);
-    --dark-400: oklch(20.0% 0.037 264.3);
+    --dark-400: oklch(20% 0.037 264.3);
     --dark-500: oklch(11.2% 0.014 264.3);
     --dark-600: oklch(29.8% 0.049 264.3);
     --dark-700: oklch(38.1% 0.055 264.3);
-    --dark-800: oklch(19.6% 0.030 264.3);
+    --dark-800: oklch(19.6% 0.03 264.3);
     --gray-100: oklch(84.2% 0.015 264.3);
     --border: oklch(91.4% 0.01 214.3);
     --input: oklch(91.4% 0.01 214.3);
