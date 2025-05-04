@@ -35,7 +35,7 @@
     --red-500: oklch(63.7% 0.171 58.2);
     --red-800: oklch(57.3% 0.233 27.1);
     --blue-100: oklch(62.1% 0.203 247.9);
-    --light-100: oklch(88.2% 0.109 258.5);
+    --light-100: oklch(90.98% 0.011 269.54);
     --light-200: oklch(84.2% 0.098 80.9);
     --light-300: oklch(98.4% 0.003 264.3);
     --light-400: oklch(95.4% 0.005 180);
@@ -363,7 +363,7 @@
     }
 
     .book-overview_btn {
-        @apply mt-4 min-h-14 w-fit bg-primary text-dark-100 hover:bg-primary/90 max-md:w-full;
+        @apply mt-4 min-h-14 w-full bg-primary text-dark-100 hover:bg-primary/90;
     }
 
     /* File Upload */
